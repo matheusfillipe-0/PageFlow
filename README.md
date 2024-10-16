@@ -56,7 +56,7 @@ Para instalar e executar o PageFlow, siga os passos abaixo:
 
 2. **Acesse o diretório do projeto**: 
    ```bash
-   cd PageFlow
+   cd PageFlow (caminho da pasta clonada)
 
 
 2. **Instale as dependências:**: 
