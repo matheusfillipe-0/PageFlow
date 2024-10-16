@@ -1,6 +1,6 @@
 # PageFlow
 
-**PageFlow** é um aplicativo de desktop desenvolvido usando Electron, que permite a navegação em páginas da web dentro de uma janela personalizada. O aplicativo apresenta uma interface com controles de janela, um tema claro e escuro, e um iframe para exibir o conteúdo carregado. Este documento fornece uma visão geral do software, suas funcionalidades e referências de código.
+**PageFlow** é um aplicativo de desktop desenvolvido usando Electron, que permite a navegação em páginas da web dentro de uma janela personalizada. O aplicativo apresenta uma interface com controles de janela, um tema claro e escuro, e um iframe para exibir o conteúdo carregado. Este documento fornece uma visão geral do software, suas funcionalidades.
 
 ## Funcionalidades
 
@@ -31,7 +31,7 @@ Copiar código
 ### Descrição dos Arquivos
 
 - **/nav/**: Contém os arquivos relacionados à interface de usuário do aplicativo.
-  - `nav.js`: Contém a lógica para os controles da janela e a alternância de tema.
+  - `nav.js`: Contém a lógica princial em JavaScript para os controles da janela e a alternância de tema.
   - `nav.html`: O HTML que define a estrutura da interface de usuário.
   - `nav.css`: O CSS que estiliza a interface do aplicativo.
   
