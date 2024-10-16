@@ -2,6 +2,10 @@
 
 **PageFlow** é um aplicativo de desktop desenvolvido usando Electron, que permite a navegação em páginas da web dentro de uma janela personalizada. O aplicativo apresenta uma interface com controles de janela, um tema claro e escuro, e um iframe para exibir o conteúdo carregado. Este documento fornece uma visão geral do software, suas funcionalidades.
 
+## Multiplataforma
+
+pode ser executado em diferentes sistemas operacionais, como **Windows**, **macOS** e **Linux**, sem a necessidade de modificar o código-fonte. Isso garante uma ampla acessibilidade e facilidade de uso para desenvolvedores e usuários em diversos ambientes, proporcionando uma experiência consistente em todas as plataformas.
+
 ## Funcionalidades
 
 - **Controles de Janela Personalizados**: O aplicativo possui uma barra de controle no topo, que permite minimizar, maximizar e fechar a janela, semelhante a aplicações nativas.
