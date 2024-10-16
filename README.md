@@ -13,13 +13,14 @@
 
 A estrutura do repositório é a seguinte:
 
+
 PageFlow/  
 ├── nav/  
-   ├── nav.js  
-   ├── nav.html  
-   └── nav.css  
+│   ├── nav.js  
+│   ├── nav.html  
+│   └── nav.css  
 ├── pack/  
-   └── index.html  
+│   └── index.html  
 ├── main.js  
 ├── preload.js  
 └── package.json  
