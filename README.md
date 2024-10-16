@@ -79,7 +79,7 @@ Para utilizar o PageFlow como um renderizador de arquivos, siga estas etapas:
    
 ## Visual do PageFlow (EXEMPLO)
 
-<img src="https://imgur.com/a/OuPemOz" alt="Página do PageFlow" width="600" />
+<img src="https://i.postimg.cc/mr0BbhmK/PageFlow.png" width="600" />
 
 
 
