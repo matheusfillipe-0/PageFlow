@@ -4,7 +4,7 @@
 
 ## Multiplataforma
 
-pode ser executado em diferentes sistemas operacionais, como **Windows**, **macOS** e **Linux**, sem a necessidade de modificar o código-fonte. Isso garante uma ampla acessibilidade e facilidade de uso para desenvolvedores e usuários em diversos ambientes, proporcionando uma experiência consistente em todas as plataformas.
+Pode ser executado em diferentes sistemas operacionais, como **Windows**, **macOS** e **Linux**, sem a necessidade de modificar o código-fonte. Isso garante uma ampla acessibilidade e facilidade de uso para desenvolvedores e usuários em diversos ambientes, proporcionando uma experiência consistente em todas as plataformas.
 
 ## Funcionalidades
 
