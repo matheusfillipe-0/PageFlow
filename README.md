@@ -25,9 +25,6 @@ PageFlow/
 └── package.json  
 
 
-markdown
-Copiar código
-
 ### Descrição dos Arquivos
 
 - **/nav/**: Contém os arquivos relacionados à interface de usuário do aplicativo.
