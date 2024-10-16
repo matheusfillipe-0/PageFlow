@@ -49,7 +49,7 @@ PageFlow/
 - Permite que os desenvolvedores verifiquem rapidamente as mudanças feitas no código.
 - Deve ser usado SEMPRE após alterar algo no código.
 
-### DevTools (**Ctrl + Shift + I**)
+## DevTools (**Ctrl + Shift + I**)
 
 O DevTools, ou Ferramentas de Desenvolvimento, é um conjunto de ferramentas integradas na maioria dos navegadores modernos que permite aos desenvolvedores web inspecionar, depurar e otimizar suas páginas da web. Um atalho comum para abrir o DevTools é pressionar  **Ctrl + Shift + I** (Windows/Linux) ou **Command + Option + I** (Mac).
 
