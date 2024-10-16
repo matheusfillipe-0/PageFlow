@@ -42,7 +42,7 @@ PageFlow/
 
 - **package.json**: Contém as dependências do projeto e informações sobre o aplicativo.
 
-  ## Atalho para DevTools
+## Atalho para DevTools
 
 O DevTools, ou Ferramentas de Desenvolvimento, é um conjunto de ferramentas integradas na maioria dos navegadores modernos que permite aos desenvolvedores web inspecionar, depurar e otimizar suas páginas da web. Um atalho comum para abrir o DevTools é pressionar  **Ctrl + Shift + I** (Windows/Linux) ou **Command + Option + I** (Mac).
 
