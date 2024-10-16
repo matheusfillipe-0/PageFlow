@@ -44,11 +44,11 @@ PageFlow/
 
 ## Atalhos
 
-###DevTools (**Ctrl + Shift + I**)
+### DevTools (**Ctrl + Shift + I**)
 
 O DevTools, ou Ferramentas de Desenvolvimento, é um conjunto de ferramentas integradas na maioria dos navegadores modernos que permite aos desenvolvedores web inspecionar, depurar e otimizar suas páginas da web. Um atalho comum para abrir o DevTools é pressionar  **Ctrl + Shift + I** (Windows/Linux) ou **Command + Option + I** (Mac).
 
-####Importância do DevTools:
+#### Importância do DevTools:
 
 1. **Inspeção de Elementos**:
    - Permite que os desenvolvedores vejam a estrutura HTML de uma página, editem elementos em tempo real e visualizem as alterações instantaneamente. Isso ajuda a entender como o DOM (Document Object Model) é construído e como diferentes elementos interagem entre si.
@@ -71,7 +71,7 @@ O DevTools, ou Ferramentas de Desenvolvimento, é um conjunto de ferramentas int
 7. **Teste de Responsividade**:
    - Os desenvolvedores podem simular diferentes tamanhos de tela e dispositivos usando o DevTools, garantindo que a aplicação seja responsiva e ofereça uma boa experiência em dispositivos móveis.
 
-###Refresh (**Ctrl + R**)
+### Refresh (**Ctrl + R**)
 
 *Permite que os desenvolvedores verifiquem rapidamente as mudanças feitas no código.*
 *Deve ser usado após alterar algo no código.*
