@@ -116,9 +116,9 @@ Para utilizar o PageFlow como um renderizador de arquivos, siga estas etapas:
 
    
 ## Visual do PageFlow (EXEMPLO)
-
+## Dark Mode :
 <img src="https://i.postimg.cc/mr0BbhmK/PageFlow.png" width="600" />
-
+## Light Mode :
 <img src="https://i.postimg.cc/VkG5yj2R/Pageflow-white.png" width="600" />
 
 
