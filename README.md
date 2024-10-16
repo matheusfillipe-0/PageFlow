@@ -73,8 +73,8 @@ O DevTools, ou Ferramentas de Desenvolvimento, é um conjunto de ferramentas int
 
 ### Refresh (**Ctrl + R**)
 
-*Permite que os desenvolvedores verifiquem rapidamente as mudanças feitas no código.*
-*Deve ser usado após alterar algo no código.*
+Permite que os desenvolvedores verifiquem rapidamente as mudanças feitas no código.
+Deve ser usado SEMPRE após alterar algo no código.
 
 ## Instalação
 
