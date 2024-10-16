@@ -76,10 +76,10 @@ Para utilizar o PageFlow como um renderizador de arquivos, siga estas etapas:
 
 2. **Colocar os Arquivos na Pasta Correta**: Coloque todos os seus arquivos (HTML, CSS, ou qualquer outro tipo que você queira incluir) na pasta `pack` do repositório do PageFlow. O aplicativo irá procurar automaticamente por um arquivo chamado `index.html` nesta pasta para exibir o conteúdo no iframe apartir dele.
 
-## Visual do PageFlow
+   
+## Visual do PageFlow (EXEMPLO)
 
-<img src="https://imgur.com/a/OuPemOz" alt="Página do PageFlow" width="600" />
-
+<img src="https://i.imgur.com/q2R3tIy.png" alt="Página do PageFlow" width="600" />
 
 
 
