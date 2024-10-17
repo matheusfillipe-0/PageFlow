@@ -87,27 +87,52 @@ O DevTools, ou Ferramentas de Desenvolvimento, é um conjunto de ferramentas int
 
 Para instalar e executar o PageFlow, siga os passos abaixo:
 
-1. **Clone o repositório**:
+
+1.Certifique-se de ter o Node.js instalado no seu computador. Você pode baixá-lo em [nodejs.org](https://nodejs.org).
+    
+  Instalação global do Electron :
+     ```bash 
+     npm install -g electron
+
+
+
+2. **Clone o repositório**:
 
    ```bash
    git clone https://github.com/matheusfillipe-0/PageFlow.git
    
 
-2. **Acesse o diretório do projeto**: 
+3. **Acesse o diretório do projeto**: 
    ```bash
    cd PageFlow (caminho da pasta clonada)
 
 
-2. **Instale as dependências:**: 
+4. **Instale as dependências:**: 
    ```bash
    npm install
 
-2. **Iniciar o app:**: 
+5. **Iniciar o app:**: 
    ```bash
    npm start
    
    
-## Uso:
+## Uso para desenvolvimento :
+
+O **PageFlow** é voltado para desenvolvedores que desejam testar e visualizar páginas da web em uma janela personalizada. Para usar o aplicativo e fazer modificações no conteúdo exibido no iframe, siga os passos abaixo:
+
+
+1. **Instalar Node.js**:  
+   Certifique-se de ter o Node.js instalado no seu computador. Você pode baixá-lo em [nodejs.org](https://nodejs.org).
+
+2. **Instalar Dependências**:  
+   Após clonar o repositório, entre no diretório do projeto e instale as dependências necessárias, incluindo o **Electron**:
+
+    ```bash
+   npm install
+
+    
+    ```bash
+   npm start
 
 Para utilizar o PageFlow como um renderizador de arquivos, siga estas etapas:
 
