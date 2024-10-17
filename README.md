@@ -90,7 +90,8 @@ Para instalar e executar o PageFlow, siga os passos abaixo:
 
 1.Certifique-se de ter o Node.js instalado no seu computador. Você pode baixá-lo em [nodejs.org](https://nodejs.org).
     
-  Instalação global do Electron :
+### Instalação global do Electron :
+
      ```bash 
      npm install -g electron
 
@@ -115,24 +116,10 @@ Para instalar e executar o PageFlow, siga os passos abaixo:
    ```bash
    npm start
    
+
    
-## Uso para desenvolvimento :
-
-O **PageFlow** é voltado para desenvolvedores que desejam testar e visualizar páginas da web em uma janela personalizada. Para usar o aplicativo e fazer modificações no conteúdo exibido no iframe, siga os passos abaixo:
-
-
-1. **Instalar Node.js**:  
-   Certifique-se de ter o Node.js instalado no seu computador. Você pode baixá-lo em [nodejs.org](https://nodejs.org).
-
-2. **Instalar Dependências**:  
-   Após clonar o repositório, entre no diretório do projeto e instale as dependências necessárias, incluindo o **Electron**:
-
-    ```bash
-   npm install
-
-    
-    ```bash
-   npm start
+## No app :
+ 
 
 Para utilizar o PageFlow como um renderizador de arquivos, siga estas etapas:
 
