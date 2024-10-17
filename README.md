@@ -95,25 +95,30 @@ Para instalar e executar o PageFlow, siga os passos abaixo:
 
      ```bash 
      npm install -g electron
+     
+
+3. **Instale o Módulo @electron/remote**
+   ```bash
+   npm install @electron/remote
 
 
-
-3. **Clone o repositório**:
+   
+4. **Clone o repositório**:
 
    ```bash
    git clone https://github.com/matheusfillipe-0/PageFlow.git
    
 
-4. **Acesse o diretório do projeto**: 
+5. **Acesse o diretório do projeto**: 
    ```bash
    cd PageFlow <caminho da pasta clonada>
 
 
-5. **Instale as dependências:**: 
+6. **Instale as dependências:**: 
    ```bash
    npm install
 
-6. **Iniciar o app:**: 
+7. **Iniciar o app:**: 
    ```bash
    npm start
    
