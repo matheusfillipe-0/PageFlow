@@ -5,8 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Janela com Controles</title>
   <link rel="stylesheet" href="nav.css">
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-
 </head>
 <body>
   
@@ -14,6 +12,7 @@
     <div class="control-btn control-close" onclick="closeWindow()"></div>  
     <div class="control-btn control-minimize" onclick="minimize()"></div>  
     <div class="control-btn control-maximize" onclick="maximize()"></div>  
+    <div class="control-btn control-reload" onclick="reloadPage()" title="Recarregar Página">⟳</div>  
     <div class="title-bar">PageFlow</div>
     <div class="control-btn control-theme" onclick="toggleTheme()" title="Alternar Tema">☀️</div> 
   </div>
@@ -21,8 +20,8 @@
   <iframe id="content" src="../pack/index.html" width="100%" height="100%" frameborder="0"></iframe>
 
   <footer class="footer">
-    <p>Developed by Filipe Mateus</p>
-    <p>&copy;2024</p>
+    <p>Developed by Filipe Mateus </p>
+    <p>2024</p>
   </footer>
 
   <script src="nav.js"></script>
