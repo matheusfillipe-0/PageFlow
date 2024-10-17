@@ -9,6 +9,7 @@ Pode ser executado em diferentes sistemas operacionais, como **Windows**, **macO
 ## Funcionalidades
 
 - **Controles de Janela Personalizados**: O aplicativo possui uma barra de controle no topo, que permite minimizar, maximizar e fechar a janela, semelhante a aplicações nativas.
+- **Botão de Recarregar**: Ao lado dos botões de controle da janela, existe um botão dedicado para recarregar a página atual (semelhante ao atalho `Ctrl + R`), facilitando a atualização do conteúdo exibido sem precisar usar o teclado.
 - **Alternância de Tema**: O usuário pode alternar entre o tema claro e escuro para personalizar a aparência do aplicativo.
 - **Iframe**: O conteúdo das páginas da web é carregado em um iframe, permitindo que os usuários naveguem sem sair do aplicativo.
 - **Interface Intuitiva**: A interface do usuário é limpa e fácil de usar, com um design inspirado em aplicativos do macOS.
