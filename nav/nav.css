@@ -94,11 +94,11 @@ body.dark-mode {
 
 .control-reload {
   padding: 3px;
-  background: linear-gradient(135deg, #2b2c2c, #e5e5e5);  /* Gradiente azul para verde */
-  color: #0a0a0a;  /* Cor do ícone */
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);  /* Sombra sutil */
+  background: linear-gradient(135deg, #2b2c2c, #e5e5e5); 
+  color: #0a0a0a; 
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); 
 }
 
 .control-reload:hover {
-  background: linear-gradient(135deg, #ffffff, #2b2c2c);  /* Inverte o gradiente ao passar o mouse */
+  background: linear-gradient(135deg, #ffffff, #2b2c2c); 
 }
