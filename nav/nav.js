@@ -15,7 +15,7 @@ function closeWindow() {
 
 function reloadPage() {
   console.log('Recarregar página chamado');
-  window.location.relocass();  
+  window.location.reload();  
 }
 
 
