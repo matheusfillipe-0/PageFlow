@@ -13,6 +13,12 @@ function closeWindow() {
   window.electronAPI.closeWindow();
 }
 
+function reloadPage() {
+  console.log('Recarregar página chamado');
+  window.location.relocass();  
+}
+
+
 function toggleTheme() {
   const body = document.body;
   const themeButton = document.querySelector('.control-theme');
@@ -54,8 +60,3 @@ window.onload = function() {
 };
 
 
-
-function reloadPage() {
-  console.log('Recarregar página chamado');
-  window.location.reload();  
-}
