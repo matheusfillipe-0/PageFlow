@@ -94,7 +94,7 @@ Para instalar e executar o PageFlow, siga os passos abaixo:
 2.  Instalação global do Electron :
 
      ```bash 
-     npm install -g electron
+     npm install electron
      
 
 3. **Instale o Módulo @electron/remote**
