@@ -114,11 +114,11 @@ Para instalar e executar o PageFlow, siga os passos abaixo:
    cd <caminho da pasta clonada>
 
 
-6. **Instale as dependências:**: 
+6. **Instale as dependências:**
    ```bash
    npm install
 
-7. **Iniciar o app:**: 
+7. **Iniciar o app:**
    ```bash
    npm start
    
