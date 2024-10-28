@@ -93,7 +93,7 @@ O DevTools, ou Ferramentas de Desenvolvimento, é um conjunto de ferramentas int
 
 
 
-## Instalação
+## Instalação (windows)
 
 Para instalar e executar o PageFlow, siga os passos abaixo:
 
@@ -141,6 +141,6 @@ Para utilizar o PageFlow como um renderizador de arquivos, siga estas etapas:
 
 1. **Preparar seus Arquivos**: Crie ou obtenha os arquivos que deseja renderizar. Embora o aplicativo seja frequentemente utilizado para arquivos HTML e CSS, ele pode ler outros tipos de arquivos também, desde que haja um arquivo principal chamado `index.html`.
 
-2. **Colocar os Arquivos na Pasta Correta**: Coloque todos os seus arquivos (HTML, CSS, ou qualquer outro tipo que você queira incluir) na pasta `pack` do repositório do PageFlow. O aplicativo irá procurar automaticamente por um arquivo chamado `index.html` nesta pasta para exibir o conteúdo no iframe apartir dele.
+2. **Colocar os Arquivos na Pasta Correta**: Coloque todos os seus arquivos (HTML, CSS, ou qualquer outro tipo que você queira incluir) na pasta `pack` do repositório do PageFlow. O aplicativo irá procurar automaticamente por um arquivo chamado `index.html`(você pode alterar no main.js) no 'pack' para exibir o conteúdo no iframe apartir dele.
 
    
