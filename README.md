@@ -9,7 +9,7 @@
 
 
 ## Light Mode :
-<img src="https://i.postimg.cc/255Y8ZRS/a.png" width="600" />
+<img src="https://i.postimg.cc/255Y8ZRS/white.png" width="600" />
 
 
 ## Multiplataforma
