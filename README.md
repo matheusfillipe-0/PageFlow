@@ -1,6 +1,7 @@
 # PageFlow
 
-**PageFlow** é um aplicativo de desktop criado com o framework Electron, permitindo a navegação em páginas da web dentro de uma janela personalizada. O aplicativo oferece uma interface com controles de janela, temas claro e escuro, e um iframe para exibir o conteúdo carregado. Este documento fornece uma visão geral do software e suas funcionalidades.
+**PageFlow** PageFlow é uma aplicação de desktop desenvolvida com o framework Electron, projetada para oferecer muito mais do que simples navegação em páginas da web. Ele permite integrar e exibir conteúdos web em uma janela totalmente personalizada, com suporte a temas (claro e escuro), controles de janela e recursos de renderização que possibilitam criar experiências ricas e interativas.
+Além de funcionar como um navegador dedicado, o PageFlow pode ser empacotado em executáveis para diferentes sistemas operacionais, viabilizando a distribuição como um software independente, ideal tanto para aplicações internas quanto para produtos prontos para o usuário final. Este documento apresenta uma visão geral do sistema e de suas principais funcionalidades.
  
 ## Visual do PageFlow (EXEMPLO)
 
@@ -120,3 +121,4 @@ Para utilizar o PageFlow como um renderizador de arquivos, siga estas etapas:
 2. **Colocar os Arquivos na Pasta Correta**: Coloque todos os seus arquivos (HTML, CSS, ou qualquer outro tipo que você queira incluir) na pasta `pack` do repositório do PageFlow. O aplicativo irá procurar automaticamente por um arquivo chamado `index.html`(você pode alterar no main.js) no 'pack' para exibir o conteúdo no iframe apartir dele.
 
    
+
