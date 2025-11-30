@@ -114,14 +114,6 @@ Para instalar e executar o PageFlow, siga os passos abaixo:
    npm start
 
    
-
-Para utilizar o PageFlow como um renderizador de arquivos, siga estas etapas:
-
-1. **Preparar seus Arquivos**: Crie ou obtenha os arquivos que deseja renderizar. Embora o aplicativo seja frequentemente utilizado para arquivos HTML e CSS, ele pode ler outros tipos de arquivos também, desde que haja um arquivo principal chamado `index.html`.
-
-2. **Colocar os Arquivos na Pasta Correta**: Coloque todos os seus arquivos (HTML, CSS, ou qualquer outro tipo que você queira incluir) na pasta `pack` do repositório do PageFlow. O aplicativo irá procurar automaticamente por um arquivo chamado `index.html`(você pode alterar no main.js) no 'pack' para exibir o conteúdo no iframe apartir dele.
-
-   
 ## No app:
 
 Para utilizar o PageFlow como um renderizador de arquivos ou como um carregador de sites hospedados, siga estas etapas:
@@ -140,13 +132,13 @@ Você pode manter o index.html local, configurando-o como a tela inicial do seu 
 
 Ou, se preferir, pode alterar o conteúdo do iframe no nav.html para carregar um link externo hospedado, como:
 
-seu site online
+- Seu site online
 
-sua API com interface
+- Sua API com interface
 
-seu painel hospedado
+- Seu painel hospedado
 
-um sistema rodando em localhost (para uso interno)
+- Um sistema rodando em localhost (para uso interno)
 
 Isso permite que o PageFlow funcione tanto como um aplicativo offline (usando arquivos locais) quanto como um navegador dedicado para soluções hospedadas, mantendo o visual personalizado, ambiente fechado e segurança do aplicativo desktop.
 
@@ -154,7 +146,7 @@ Isso permite que o PageFlow funcione tanto como um aplicativo offline (usando ar
 ## Gerando o Executável (.exe)
 
 Uma das maiores vantagens do PageFlow é a possibilidade de transformar todo o conteúdo configurado dentro do aplicativo — seja um sistema local ou uma página hospedada — em um executável (.exe) totalmente independente.
-Isso permite distribuir seu projeto como um software real, pronto para rodar em qualquer computador Windows, sem necessidade de instalar dependências, abrir navegador ou configurar servidor.
+Isso permite distribuir seu projeto como um software real, pronto para rodar em qualquer computador , sem necessidade de instalar dependências, abrir navegador ou configurar servidor.
 
 Para gerar o executável, utilize o comando abaixo no terminal, dentro da pasta do projeto:
 
@@ -171,5 +163,6 @@ Isso gera :
 
 
    
+
 
 
