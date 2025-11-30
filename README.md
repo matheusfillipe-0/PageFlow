@@ -150,13 +150,13 @@ Isso permite distribuir seu projeto como um software real, pronto para rodar em 
 
 Para gerar o executável, utilize o comando abaixo no terminal, dentro da pasta do projeto:
 
-    ``` 
+    
      npx electron-packager . "Nome_do_sistema" --platform=win32 --arch=x64 --icon=assets/icon.ico --overwrite
    
      
 Isso gera :
     
-    ``` 
+    
     Nome_do_sistema-win32-x64/
     
 
@@ -164,6 +164,7 @@ Dentro a pasta é gerado o aplicativo final, o arquivo 'Nome_do_sistema.exe', qu
 
 
    
+
 
 
 
