@@ -4,7 +4,7 @@
 
 Mais do que um simples navegador interno, o PageFlow funciona como um renderizador universal: ele abre páginas web — tanto hospedadas online quanto arquivos locais — dentro de uma janela desktop elegante, com tema claro/escuro, controles próprios, barra de navegação personalizada e ambiente isolado do navegador comum.
 
-Sua verdadeira força está na capacidade de gerar um executável (.exe) contendo exatamente o conteúdo que você quiser. Basta colocar seus arquivos na pasta pack e, com um único comando, você produz um programa portátil, profissional e independente que roda em Windowns , Mac , ou Linux , sem precisar de navegador, servidor ou instalação adicional.
+Seu diferencial está na capacidade de gerar um executável (.exe) contendo exatamente o conteúdo que você quiser. Basta colocar seus arquivos na pasta pack e, com um único comando, você produz um programa portátil, profissional e independente que roda em Windowns , Mac , ou Linux , sem precisar de navegador, servidor ou instalação adicional.
 O resultado é um software pronto para uso, que carrega a interface que você criou, protege seu conteúdo, oferece navegação privada e facilita a integração com IA e automações avançadas, permitindo que esses recursos acessem arquivos, dados e sistemas internos da máquina com muito mais segurança e liberdade do que em um navegador comum.
  
 ## Visual do PageFlow (EXEMPLO)
@@ -171,4 +171,5 @@ Isso gera :
 
 
    
+
 
