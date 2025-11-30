@@ -1,7 +1,9 @@
 # PageFlow
 
-**PageFlow** PageFlow é uma aplicação de desktop desenvolvida com o framework Electron, projetada para oferecer muito mais do que simples navegação em páginas da web. Ele permite integrar e exibir conteúdos web em uma janela totalmente personalizada, com suporte a temas (claro e escuro), controles de janela e recursos de renderização que possibilitam criar experiências ricas e interativas.
-Além de funcionar como um navegador dedicado, o PageFlow pode ser empacotado em executáveis para diferentes sistemas operacionais, viabilizando a distribuição como um software independente, ideal tanto para aplicações internas quanto para produtos prontos para o usuário final. Este documento apresenta uma visão geral do sistema e de suas principais funcionalidades.
+**PageFlow** PageFlow é uma aplicação desktop desenvolvida em Electron, projetada para transformar qualquer conteúdo web em um software real, moderno e totalmente personalizável.
+Mais do que um simples navegador interno, o PageFlow funciona como um renderizador universal: ele abre páginas web — tanto hospedadas online quanto arquivos locais — dentro de uma janela desktop elegante, com tema claro/escuro, controles próprios, barra de navegação personalizada e ambiente isolado do navegador comum.
+Sua verdadeira força está na capacidade de gerar um executável (.exe) contendo exatamente o conteúdo que você quiser. Basta colocar seus arquivos na pasta pack e, com um único comando, você produz um programa portátil, profissional e independente que roda em Windowns , Mac , ou Linux , sem precisar de navegador, servidor ou instalação adicional.
+O resultado é um software pronto para uso, que carrega a interface que você criou, protege seu conteúdo, oferece navegação privada e facilita a integração com IA e automações avançadas, permitindo que esses recursos acessem arquivos, dados e sistemas internos da máquina com muito mais segurança e liberdade do que em um navegador comum.
  
 ## Visual do PageFlow (EXEMPLO)
 
@@ -108,11 +110,8 @@ Para instalar e executar o PageFlow, siga os passos abaixo:
 7. **Iniciar o app:**
    ```bash
    npm start
-   
 
    
-## No app :
- 
 
 Para utilizar o PageFlow como um renderizador de arquivos, siga estas etapas:
 
@@ -121,4 +120,52 @@ Para utilizar o PageFlow como um renderizador de arquivos, siga estas etapas:
 2. **Colocar os Arquivos na Pasta Correta**: Coloque todos os seus arquivos (HTML, CSS, ou qualquer outro tipo que você queira incluir) na pasta `pack` do repositório do PageFlow. O aplicativo irá procurar automaticamente por um arquivo chamado `index.html`(você pode alterar no main.js) no 'pack' para exibir o conteúdo no iframe apartir dele.
 
    
+## No app:
 
+Para utilizar o PageFlow como um renderizador de arquivos ou como um carregador de sites hospedados, siga estas etapas:
+
+Preparar seus Arquivos
+Crie ou organize os arquivos que deseja exibir no aplicativo.
+Normalmente utiliza-se HTML, CSS e JavaScript, mas qualquer conteúdo web pode ser carregado — desde que exista um arquivo principal chamado index.html.
+
+**Colocar os Arquivos na Pasta Correta**
+Coloque seus arquivos dentro da pasta pack.
+Por padrão, o PageFlow procura automaticamente pelo arquivo index.html nessa pasta e renderiza esse conteúdo dentro do iframe na inicialização.
+
+Escolher o que será exibido primeiro
+
+Você pode manter o index.html local, configurando-o como a tela inicial do seu sistema.
+
+Ou, se preferir, pode alterar o conteúdo do iframe no nav.html para carregar um link externo hospedado, como:
+
+seu site online
+
+sua API com interface
+
+seu painel hospedado
+
+um sistema rodando em localhost (para uso interno)
+
+Isso permite que o PageFlow funcione tanto como um aplicativo offline (usando arquivos locais) quanto como um navegador dedicado para soluções hospedadas, mantendo o visual personalizado, ambiente fechado e segurança do aplicativo desktop.
+
+
+## Gerando o Executável (.exe)
+
+Uma das maiores vantagens do PageFlow é a possibilidade de transformar todo o conteúdo configurado dentro do aplicativo — seja um sistema local ou uma página hospedada — em um executável (.exe) totalmente independente.
+Isso permite distribuir seu projeto como um software real, pronto para rodar em qualquer computador Windows, sem necessidade de instalar dependências, abrir navegador ou configurar servidor.
+
+Para gerar o executável, utilize o comando abaixo no terminal, dentro da pasta do projeto:
+
+     ```bash 
+     npx electron-packager . "Nome_do_sistema" --platform=win32 --arch=x64 --icon=assets/icon.ico --overwrite
+
+     
+Isso gera :
+
+    
+    ```bash 
+    Nome_do_sistema-win32-x64/
+
+
+
+   
