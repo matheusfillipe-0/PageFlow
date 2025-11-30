@@ -1,6 +1,6 @@
 # PageFlow
 
-**PageFlow** PageFlow é uma aplicação desktop desenvolvida em Electron, projetada para transformar qualquer conteúdo web em um software real, moderno e totalmente personalizável.
+**PageFlow** é uma aplicação desktop desenvolvida em Electron, projetada para transformar qualquer conteúdo web em um software real, moderno e totalmente personalizável.
 
 Mais do que um simples navegador interno, o PageFlow funciona como um renderizador universal: ele abre páginas web — tanto hospedadas online quanto arquivos locais — dentro de uma janela desktop elegante, com tema claro/escuro, controles próprios, barra de navegação personalizada e ambiente isolado do navegador comum.
 
@@ -164,6 +164,7 @@ Dentro a pasta é gerado o aplicativo final, o arquivo 'Nome_do_sistema.exe', qu
 
 
    
+
 
 
 
